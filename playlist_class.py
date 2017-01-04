@@ -16,8 +16,7 @@ class Playlist:
 
     def add_songs(self, songs):
         self.songs += songs
-        return "Ueaa!"
-
+        # return "Ueaa!"
 
     def total_lenght(self):
         lengh = 0
