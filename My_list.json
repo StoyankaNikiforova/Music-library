@@ -1,0 +1,29 @@
+{
+ "name": "My_list",
+ "songs": [
+  {
+   "album": "The sons of Odin_01",
+   "artist": "Manomar",
+   "title": "Odin1",
+   "length": "2:44"
+  },
+  {
+   "album": "The sons of Odin_02",
+   "artist": "Manomar",
+   "title": "Odin2",
+   "length": "2:44"
+  },
+  {
+   "album": "The sons of Odin_03",
+   "artist": "Manomar",
+   "title": "Odin3",
+   "length": "2:44"
+  },
+  {
+   "album": "The sons of Odin_04",
+   "artist": "Manomar",
+   "title": "Odin4",
+   "length": "2:44"
+  }
+ ]
+}
