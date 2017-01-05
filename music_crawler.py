@@ -20,10 +20,11 @@ class MusicCrawler:
 
         files = self.get_music_files()
         for f in files:
-            print(f)
-            tags = ID3('{}/{}'.format(self.path, f))
-            print(tags.pprint())
-            song = Song()
+            file_path = '{}/{}'.format(self.path, f)
+            tags = ID3(file_path)
+            audio = MP3(file_path)
+            lenght = '{:0.2f}'.format(audio.info.length/60)
+            song = Song(tags['TIT2'], tags['TCOM'], tags['TALB'], '3.35')
             playlist.songs.append(song)
 
         return playlist
